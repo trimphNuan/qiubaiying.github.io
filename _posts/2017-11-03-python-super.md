@@ -15,7 +15,13 @@ tags:                               #标签
   首先没有super我们如何调用父类属性，或者方法：
 
 
+
+
+
+
+
     ### super 构造方法 有两个默认参数
+
     def __init__(self, type1=None, type2=None):  # known special case of super.__init__
         #type1 表示 当前类
         #type2 表示 当前类实例
