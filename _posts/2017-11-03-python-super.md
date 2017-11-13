@@ -20,7 +20,7 @@ tags:                               #标签
 
 
 
-    ### super 构造方法 有两个默认参数
+>   super 构造方法 有两个默认参数
 
     def __init__(self, type1=None, type2=None):  # known special case of super.__init__
         #type1 表示 当前类
@@ -43,7 +43,9 @@ tags:                               #标签
     print("=================")
 
 
-    #使用super
+>   使用super
+
+
     class A(object):
 
      def __init__(self):
